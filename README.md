@@ -26,9 +26,10 @@ A new schema 'sqlchallenge' was created in order to create the DB Tables under t
 
 ## Challenge Completion Rundown
 
-Firstly, using the CSV files, and ERD was created which was used as a reference for creating the tables. ![SQL files for creating tables.sql](SQL%20Files/SQL%20files%20for%20creating%20tables.sql)
-Afterwards, the tables were altered and constraints were added. ![SQL files for altering tables.sql](SQL%20Files/SQL%20files%20for%20altering%20tables.sql)
+- Firstly, using the CSV files, and ERD was created which was used as a reference for creating the tables. ![SQL files for creating tables.sql](SQL%20Files/SQL%20files%20for%20creating%20tables.sql)
 
-Once both were completed successfully, imports were made from CSV files to import the data directly to the corresponding tables. ![SQL imports](SQL%20Files/SQL%20imports.png)
+- Afterwards, the tables were altered and constraints were added. ![SQL files for altering tables.sql](SQL%20Files/SQL%20files%20for%20altering%20tables.sql)
 
-On successful completion of that, the Data Analysis part was completed. ![Data Analysis.sql](SQL%20Files/Data%20Analysis.sql)
+- Once both were completed successfully, imports were made from CSV files to import the data directly to the corresponding tables. ![SQL imports](SQL%20Files/SQL%20imports.png)
+
+- On successful completion of that, the Data Analysis part was completed. ![Data Analysis.sql](SQL%20Files/Data%20Analysis.sql)
