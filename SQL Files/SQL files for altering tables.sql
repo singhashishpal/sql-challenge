@@ -16,6 +16,10 @@ ALTER TABLE sqlchallenge.DEPT_MANAGER ADD CONSTRAINT fk_DEPT_MANAGER_dept_no FOR
 REFERENCES sqlchallenge.DEPARTMENTS (dept_no); -- This will create a foreign key on DEPT_MANAGER table to reference PK 'dept_no' in DEPARTMENTS table.
 
 
+ALTER TABLE sqlchallenge.DEPT_MANAGER ADD CONSTRAINT fk_DEPT_MANAGER_emp_no FOREIGN KEY(emp_no)
+REFERENCES sqlchallenge.EMPLOYEES (emp_no); -- This will create a foreign key on DEPT_MANAGER table to reference PK 'dept_no' in DEPARTMENTS table.
+
+
 ALTER TABLE sqlchallenge.DEPT_EMP ADD CONSTRAINT fk_DEPT_EMP_emp_no FOREIGN KEY(emp_no)
 REFERENCES sqlchallenge.EMPLOYEES (emp_no); -- This will create a foreign key on DEPT_EMP table to reference PK 'emp_no' in EMPLOYEES table.
 
